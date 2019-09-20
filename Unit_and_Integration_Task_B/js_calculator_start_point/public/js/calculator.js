@@ -18,6 +18,9 @@ Calculator.prototype.multiply = function(number){
 }
 
 Calculator.prototype.divide = function(number){
+  // if (this.runningTotal == 0){
+  //   this.runningTotal = 'Error'
+  // }
   this.runningTotal = parseFloat(this.previousTotal) / parseFloat(number);
 }
 
